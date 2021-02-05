@@ -1,0 +1,48 @@
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 2em;
+      Background-color: black;
+  
+  }
+  
+  h1 {
+   font-size:134px;
+    color: white;
+    font-family:Rock Salt; 
+   text-align: center; 
+    
+    }
+    
+  #Text {
+     font-weight:20;
+      position: absolute; 
+     top:800px;
+    font-size: 36px;
+   left:50%;
+     margin:30px; 
+    display: inline;
+      color: #ADFF2F;
+        font-family: "Times New Roman";
+    width:800px
+    }
+  #Text1{
+  margin:10px; 
+      position: absolute; 
+    font-size: 18px;
+    display: inline;
+      color: #E6E6FA;
+    
+        font-family: "Times New Roman";
+    width:700px
+    }
+  
+  .link{
+  bottom:0%;
+    float:right;
+    font-size: 28px;
+      font-family: "Permanent Marker";
+    right: 50%;
+    text-align:center;
+        color: #E6E6FA;
+    
+  }

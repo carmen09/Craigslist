@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hanalei&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <title>Giant Rideable T-Rex Art Bike</title>
+
+    <!-- import the webpage's stylesheet -->
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>Giant Rideable T-Rex Art Bike</h1>
+
+
+    <div
+      id="carousel"
+      style="float:center; margin: 10px; width:700px;padding:0px;"
+    >
+      <div id="tabpic">
+        <div style="display:block;">
+          <img
+            src="https://cdn.glitch.com/480ea351-2ab2-45c6-afd8-3ce1b19a4792%2F5072609529-6.jpg?v=1611873012407"
+            high="700px"
+            width="700px"
+          />
+        </div>
+        <div style="display:none;">
+          <img
+            src="https://cdn.glitch.com/480ea351-2ab2-45c6-afd8-3ce1b19a4792%2Fcore1.jpg?v=1611872021193"
+            width="700px"
+            high="700px"
+          />
+        </div>
+        <div style="display:none;">
+          <img
+            src="https://cdn.glitch.com/480ea351-2ab2-45c6-afd8-3ce1b19a4792%2Fcore3.jpg?v=1611872051466"
+            width="700px"
+            high="700px"
+          />
+        </div>
+        <div style="display:none;">
+          <img
+            src="https://cdn.glitch.com/480ea351-2ab2-45c6-afd8-3ce1b19a4792%2Fcore2.jpg?v=1611872015388"
+            width="700px"
+            high="700px"
+          />
+        </div>
+      </div>
+
+      <div style="float:center;">
+        <a
+          href="javascript:void(0)"
+          name="tablink"
+          οnclick="div_tab(0)"
+          style="color:#ff0000;"
+          >1</a
+        >
+        <a
+          href="javascript:void(0)"
+          name="tablink"
+          οnclick="div_tab(1)"
+          style="color:#0000ff;"
+          >2</a
+        >
+        <a
+          href="javascript:void(0)"
+          name="tablink"
+          οnclick="div_tab(2)"
+          style="color:#0000ff;"
+          >3</a
+        >
+        <a
+          href="javascript:void(0)"
+          name="tablink"
+          οnclick="div_tab(3)"
+          style="color:#0000ff;"
+          >4</a
+        >
+      </div>
+    </div>
+
+    <p id="Text">
+      Presenting your chance to be the proud owner of the only dinosaur skeleton
+      that has been reanimated through the mysteries of science and technology.
+      She is a beautiful fosillized juvenile Tyrannosaurus Rex who now consents
+      for me to harness and ride her in parades and other special events. She's
+      a bit difficult to handle, but she's never attacked anyone in the crowds
+      that form whenever I take her out of the warehouse where she lives.
+      (unlike her cousin from Jurassic Park) I labored for many months on this
+      act of creation but now find that I'm not the right rider for this
+      beautiful creature. This wonderful rideable dinosaur, this fulfilment of
+      my childhood dreams, needs to go to someone who likes being the center of
+      attention, likes making the news whenever they're out in public, and likes
+      inspiring joy and wonder in the faces of children. I'm just a quiet
+      engineer and bicycle fabricator and am not interested in celebrity.
+    </p>
+    <p1 id="Text1">
+      Specs: -12ft long from head to tail, 5.5ft wide stance, 8.5ft tall (size
+      of a 12 year old young-adult T-Rex) -90lb recumbent tricycle made from
+      chromoly steel, foam, and textured paint (200lb rider weight limit)
+      -9-speed wide-range drivetrain with a top speed of about 15mph
+      (comfortable cruising speed of about 7mph) -Seat is ~5ft off the ground so
+      use a step ladder, or if you have good balance, use foot and hand holds
+      hidden along the left side of her body. -Head is a marionette that turns
+      side to side and opens her jaw; controlled by wire from handlebars -Arms
+      are attached to pedals and can be controlled in combination with head to
+      create believable performances (Sue can answer questions, wave at
+      audience, snap her jaws in excitement, disgust, hunger, etc.)
+      -Disassembles using basic tools into multiple pieces to fit within a
+      pick-up truck bed for easy(er) transport to events
+    </p1>
+    <img
+            src="https://cdn.glitch.com/480ea351-2ab2-45c6-afd8-3ce1b19a4792%2Fpngsucai_49096_886a00.png?v=1611894244350"
+            high="150px"
+            width="150px"
+  style="position:relative;top:50px; left:80%"
+          />
+  
+    <script type="text/javascript">
+      function div_tab(tabName) {
+        var tabLinkArr = document.getElementsByName("tablink");
+        var tabPicArr = document
+          .getElementById("tabpic")
+          .getElementsByTagName("div");
+        for (var i = 0; i < tabLinkArr.length; i++) {
+          if (i == tabName) {
+            tabLinkArr[i].style.color = "#ff0000";
+            tabPicArr[i].style.display = "block";
+          } else {
+            tabLinkArr[i].style.color = "#0000ff";
+            tabPicArr[i].style.display = "none";
+          }
+        }
+      }
+      var i = 0;
+      function auto_tab_div() {
+        if (i > 3) {
+          i = 0;
+        }
+
+        div_tab(i);
+        i++;
+      }
+      setInterval("auto_tab_div()", 1000);
+    </script>
+      <div class="link">
+        <a href="https://www.craigslist.org/about/best/pdx/5072609529.html">Original Page</a>
+      </div>
+  </body>
+</html>
